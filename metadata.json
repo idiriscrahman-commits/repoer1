@@ -1,0 +1,8 @@
+{
+  "name": "Remix Report Management System",
+  "description": "Secure, responsive, full-stack Admin Report Management System with analytics, comparisons, and PDF/Excel exports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

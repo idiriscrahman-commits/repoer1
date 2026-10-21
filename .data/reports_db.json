@@ -1,0 +1,254 @@
+{
+  "admins": [
+    {
+      "_id": "admin_1",
+      "name": "System Administrator",
+      "email": "admin@reportmanagement.internal",
+      "passwordHash": "$2b$10$S44uk/h9IdBBq615BAol4e1BDCM5x4S0EaK0/nhNmhwLx6rVyxrXe",
+      "role": "admin",
+      "createdAt": "2026-10-21T14:54:04.878Z",
+      "updatedAt": "2026-10-21T14:54:04.878Z"
+    }
+  ],
+  "reports": [
+    {
+      "_id": "rpt_1792594650497_7bmng",
+      "reportNumber": "RPT-2026-0011",
+      "title": "Production API Gateway Resiliency & Failover Assessment",
+      "category": "Technical Review",
+      "reportDate": "2026-10-21",
+      "description": "Comprehensive resilience drill simulating sudden zonal node dropouts and failover latency across cluster nodes.",
+      "findings": "Cross-zone failover succeeded in 1.4 seconds with zero dropped connections. Circuit breakers triggered appropriately.",
+      "recommendations": "Increase keepalive connection timeout from 60s to 90s to avoid unnecessary TLS handshakes during peak traffic.",
+      "status": "Completed",
+      "priority": "High",
+      "tags": [
+        "API",
+        "Gateway",
+        "HighAvailability",
+        "Failover"
+      ],
+      "reference": "API-GW-2026-F1",
+      "archived": false,
+      "createdAt": "2026-10-21T14:57:30.497Z",
+      "updatedAt": "2026-10-21T14:59:54.384Z"
+    },
+    {
+      "_id": "rpt_1",
+      "reportNumber": "RPT-2026-0001",
+      "title": "Q1 Financial & Operational Audit Review",
+      "category": "Financial Audit",
+      "reportDate": "2026-01-15",
+      "description": "Comprehensive quarterly assessment of departmental expense structures, ledger reconciliations, and capital expenditure variance.",
+      "findings": "Found a 4.2% operational discrepancy in vendor contract reconciliations across the regional hub. All core ledger balances match bank statements.",
+      "recommendations": "Implement automated three-way matching for purchase orders exceeding $10,000 and mandate dual approval for off-cycle dispatches.",
+      "status": "Completed",
+      "priority": "High",
+      "tags": [
+        "Finance",
+        "Audit",
+        "Q1-2026",
+        "Compliance"
+      ],
+      "reference": "AUD-2026-Q1-09",
+      "archived": false,
+      "createdAt": "2026-01-15T10:00:00.000Z",
+      "updatedAt": "2026-01-16T14:30:00.000Z"
+    },
+    {
+      "_id": "rpt_2",
+      "reportNumber": "RPT-2026-0002",
+      "title": "Enterprise Cloud Infrastructure Security Assessment",
+      "category": "Security & Compliance",
+      "reportDate": "2026-02-04",
+      "description": "Evaluation of IAM role hierarchies, network security group policies, and zero-trust perimeter enforcement on production clusters.",
+      "findings": "Three legacy service accounts possessed overly permissive wildcard permissions. Multi-factor authentication is 99.4% compliant across administrative consoles.",
+      "recommendations": "Rotate credentials for identified service accounts immediately. Enforce automated weekly least-privilege role scanning in CI/CD.",
+      "status": "Completed",
+      "priority": "Urgent",
+      "tags": [
+        "Security",
+        "Cloud",
+        "IAM",
+        "ZeroTrust"
+      ],
+      "reference": "SEC-INFRA-882",
+      "archived": false,
+      "createdAt": "2026-02-04T09:15:00.000Z",
+      "updatedAt": "2026-02-05T11:20:00.000Z"
+    },
+    {
+      "_id": "rpt_3",
+      "reportNumber": "RPT-2026-0003",
+      "title": "Supply Chain Logistics Disruption Analysis",
+      "category": "Operational Risk",
+      "reportDate": "2026-02-22",
+      "description": "Root cause evaluation of freight shipping bottlenecks at coastal ports and impact on inventory turnover targets.",
+      "findings": "Port congestion led to an average delay of 6.8 days on sea containers. Secondary regional warehouse buffers absorbed 72% of delivery shock.",
+      "recommendations": "Diversify carrier agreements to include air cargo fallback guarantees for critical path components.",
+      "status": "In Progress",
+      "priority": "High",
+      "tags": [
+        "SupplyChain",
+        "Logistics",
+        "Operations"
+      ],
+      "reference": "LOG-DIS-441",
+      "archived": false,
+      "createdAt": "2026-02-22T08:30:00.000Z",
+      "updatedAt": "2026-02-23T16:00:00.000Z"
+    },
+    {
+      "_id": "rpt_4",
+      "reportNumber": "RPT-2026-0004",
+      "title": "Server Cluster Thermal & Power Efficiency Incident",
+      "category": "Incident Report",
+      "reportDate": "2026-03-02",
+      "description": "Investigation into unexpected temperature spikes in Rack B-4 and localized HVAC failover latency.",
+      "findings": "A backup cooling compressor valve experienced intermittent mechanical throttling, causing rack thermal levels to reach 28°C.",
+      "recommendations": "Replace actuator valve on secondary HVAC unit and recalibrate ambient temperature telemetry triggers to 24°C threshold.",
+      "status": "Completed",
+      "priority": "Urgent",
+      "tags": [
+        "Incident",
+        "DataCenter",
+        "Hardware",
+        "Facilities"
+      ],
+      "reference": "INC-2026-0302",
+      "archived": false,
+      "createdAt": "2026-03-02T13:45:00.000Z",
+      "updatedAt": "2026-03-03T10:15:00.000Z"
+    },
+    {
+      "_id": "rpt_5",
+      "reportNumber": "RPT-2026-0005",
+      "title": "Q2 Executive Strategy & Market Alignment Summary",
+      "category": "Executive Summary",
+      "reportDate": "2026-03-18",
+      "description": "High-level synthesis of quarterly business unit performance, operational efficiency indices, and strategic growth trajectories.",
+      "findings": "Enterprise adoption exceeded preliminary forecasts by 18%. Customer retention metrics remain solid at 96.8%.",
+      "recommendations": "Scale customer onboarding engineering teams and accelerate international localization milestones.",
+      "status": "In Progress",
+      "priority": "Medium",
+      "tags": [
+        "Strategy",
+        "Executive",
+        "Q2",
+        "Growth"
+      ],
+      "reference": "EXEC-STRAT-2026",
+      "archived": false,
+      "createdAt": "2026-03-18T11:00:00.000Z",
+      "updatedAt": "2026-03-19T09:30:00.000Z"
+    },
+    {
+      "_id": "rpt_6",
+      "reportNumber": "RPT-2026-0006",
+      "title": "Microservices Latency and Database Indexing Audit",
+      "category": "Technical Review",
+      "reportDate": "2026-04-05",
+      "description": "Deep performance profiling of API gateway latency, p99 request bottlenecks, and slow query executions.",
+      "findings": "Unindexed timestamp filtering on analytics endpoints was contributing 280ms to p99 response curves.",
+      "recommendations": "Deploy compound B-tree index on (archived, status, reportDate) and activate Redis edge caching for read-heavy summaries.",
+      "status": "Completed",
+      "priority": "Medium",
+      "tags": [
+        "Performance",
+        "Database",
+        "Microservices",
+        "Latency"
+      ],
+      "reference": "TECH-REV-091",
+      "archived": false,
+      "createdAt": "2026-04-05T14:10:00.000Z",
+      "updatedAt": "2026-04-06T15:20:00.000Z"
+    },
+    {
+      "_id": "rpt_7",
+      "reportNumber": "RPT-2026-0007",
+      "title": "Vendor SLA Non-Compliance & Billing Dispute",
+      "category": "Operational Risk",
+      "reportDate": "2026-04-12",
+      "description": "Formal documentation of uptime SLA breach by third-party telephony provider during peak hours.",
+      "findings": "SLA dropped to 97.2% against contracted 99.9% uptime commitment, impacting call center operations.",
+      "recommendations": "Issue contractual cure notice and claim credit refund as stipulated in section 8.4 of agreement.",
+      "status": "Pending",
+      "priority": "High",
+      "tags": [
+        "Vendor",
+        "SLA",
+        "Legal",
+        "Operations"
+      ],
+      "reference": "VEN-SLA-102",
+      "archived": false,
+      "createdAt": "2026-04-12T16:00:00.000Z",
+      "updatedAt": "2026-04-12T16:00:00.000Z"
+    },
+    {
+      "_id": "rpt_8",
+      "reportNumber": "RPT-2026-0008",
+      "title": "Annual Data Privacy & GDPR Policy Compliance Inspection",
+      "category": "Security & Compliance",
+      "reportDate": "2026-04-18",
+      "description": "Yearly statutory audit verifying compliance with international data privacy standards and data subject request workflows.",
+      "findings": "Automated data deletion request pipeline functions within 48-hour legal requirement. Cookie consent banner updated to v3 specifications.",
+      "recommendations": "Conduct biannual refresher training for customer support personnel handling identity verification.",
+      "status": "Pending",
+      "priority": "Medium",
+      "tags": [
+        "Compliance",
+        "GDPR",
+        "Privacy",
+        "Security"
+      ],
+      "reference": "PRIV-2026-GDPR",
+      "archived": false,
+      "createdAt": "2026-04-18T10:30:00.000Z",
+      "updatedAt": "2026-04-18T10:30:00.000Z"
+    },
+    {
+      "_id": "rpt_9",
+      "reportNumber": "RPT-2026-0009",
+      "title": "Legacy Automated Testing Framework Migration Proposal",
+      "category": "Technical Review",
+      "reportDate": "2026-04-19",
+      "description": "Feasibility analysis of migrating outdated testing scripts to modern Vitest and Supertest suites.",
+      "findings": "Old test runner takes 18 minutes in CI pipeline and exhibits intermittent flakiness.",
+      "recommendations": "Standardize on Vitest with parallel execution pipelines, reducing run duration to under 90 seconds.",
+      "status": "Rejected",
+      "priority": "Low",
+      "tags": [
+        "Testing",
+        "DevOps",
+        "CI-CD"
+      ],
+      "reference": "TEST-MIG-003",
+      "archived": false,
+      "createdAt": "2026-04-19T09:00:00.000Z",
+      "updatedAt": "2026-04-20T11:00:00.000Z"
+    },
+    {
+      "_id": "rpt_10",
+      "reportNumber": "RPT-2026-0010",
+      "title": "Archived 2025 Office Lease Renewal Negotiation Report",
+      "category": "Executive Summary",
+      "reportDate": "2025-11-10",
+      "description": "Historical summary of lease renewal terms negotiated for headquarters facility.",
+      "findings": "Secured 3-year extension with capped rent indexation and turnkey HVAC upgrades.",
+      "recommendations": "Maintain lease agreement documentation in archive repository.",
+      "status": "Completed",
+      "priority": "Low",
+      "tags": [
+        "Facilities",
+        "RealEstate",
+        "Historical"
+      ],
+      "reference": "LEASE-HQ-2025",
+      "archived": true,
+      "createdAt": "2025-11-10T08:00:00.000Z",
+      "updatedAt": "2025-11-15T12:00:00.000Z"
+    }
+  ]
+}
